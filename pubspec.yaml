@@ -1,0 +1,27 @@
+name: corner_toast
+description: >-
+  Stacked toast notifications anchored to a screen corner, with success, info,
+  warning and error styles, inline actions and keyboard access.
+version: 0.1.0
+# Add `repository:` (or `homepage:`) pointing at the public source before
+# publishing; pub.dev uses it for the package page and scoring.
+
+topics:
+  - toast
+  - notification
+  - snackbar
+  - ui
+  - widget
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
